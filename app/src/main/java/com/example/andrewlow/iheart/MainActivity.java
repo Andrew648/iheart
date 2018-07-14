@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
                       f = new BlankFragment();
                     break;
                 case R.id.navigation_notifications:
-                    f= new BlankFragment();
+                    f= new constructFrag();
                     break;
             }
             getSupportFragmentManager().beginTransaction().replace(R.id.container,f).commit();
